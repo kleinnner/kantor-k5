@@ -1,0 +1,3 @@
+[workspace]
+members = ["k5-core", "k5-cli", "k5-wasm", "k5-py"]
+resolver = "2"

@@ -1,0 +1,15 @@
+[package]
+name = "k5-py"
+version = "0.2.0"
+edition = "2021"
+description = "K5 — native Python bindings via PyO3"
+authors = ["Lois-Kleinner Alpasan"]
+
+[lib]
+name = "k5_native"
+crate-type = ["cdylib"]
+
+[dependencies]
+k5-core = { path = "../k5-core" }
+pyo3 = { version = "0.21", features = ["extension-module"] }
+hex = "0.4"

@@ -1,0 +1,18 @@
+[package]
+name = "k5-core"
+version = "0.2.0"
+edition = "2024"
+description = "Kleinner-Kantor 5 (K5) — post-quantum sponge hash core"
+authors = ["Lois-Kleinner Alpasan"]
+
+[dependencies]
+blake3 = "1"
+sha3 = "0.10"
+hex = "0.4"
+
+[[bin]]
+name = "benchmark"
+path = "src/bin/benchmark.rs"
+
+[dev-dependencies]
+hex-literal = "0.4"

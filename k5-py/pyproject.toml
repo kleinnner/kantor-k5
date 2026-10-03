@@ -1,0 +1,10 @@
+[build-system]
+requires = ["maturin>=1.0"]
+build-backend = "maturin"
+
+[project]
+name = "k5-native"
+version = "0.2.0"
+description = "K5 native Rust bindings — 1000x faster than pure Python"
+requires-python = ">=3.11"
+authors = [{ name = "Lois-Kleinner Alpasan" }]
