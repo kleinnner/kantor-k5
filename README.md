@@ -143,3 +143,8 @@ kantor/
 ## License
 
 MIT — Lois-Kleinner Alpasan
+
+---
+## Mirror notice
+Read-only mirror of the KANTOR K5 core (Anticloud FZ LLE). Issues/discussions disabled — contact lois@0-1.gg.
+License: Apache-2.0 + Enterprise commercial dual (Anticommons 0.1.0). K5 = SHA3-256(archive_sha3 || size_le64 || name || NULL || timestamp).
